@@ -1,0 +1,80 @@
+/* styles.qss */
+
+/* Main window */
+QMainWindow {
+    background-color: #f0f0f0; /* Light gray */
+}
+
+/* ToolBar */
+QToolBar {
+    background-color: #777; /* Dark gray */
+}
+
+/* ToolButton */
+QToolBar QToolButton {
+    background-color: #777; /* Gray */
+    border: none;
+    padding: 8px 11px;
+    color: white;
+}
+
+/* ToolButton hover */
+QToolBar QToolButton:hover {
+    background-color: #777; /* Light gray */
+    padding: 8px 11px;
+}
+
+/* ToolButton */
+QToolBar QPushButton{
+    padding: 8px 11px;
+    margin:3px
+   
+}
+
+/* ToolButton hover */
+QToolBar QPushButton:hover {
+    background-color: #777; /* Light gray */
+    padding: 8px 11px;
+   
+   
+}
+
+/* GroupBox */
+QGroupBox {
+    border: 1px solid #777; /* Dark gray border */
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+/* CheckBox */
+QCheckBox {
+    color: #333; /* Dark gray text */
+}
+
+/* QLabel */
+QLabel {
+    color: #555; /* Gray text */
+}
+
+/* QSlider */
+QSlider {
+    border: none; /* Remove border */
+    background: transparent; /* Transparent background */
+    height: 6px;
+}
+
+QSlider::groove:horizontal {
+    background: #bbb; /* Light gray */
+    height: 6px;
+    border-radius: 3px;
+}
+
+QSlider::handle:horizontal {
+    background:  #777; 
+    border: 1px solid #555;
+    width: 14px;
+    margin-top: -4px;
+    margin-bottom: -4px;
+    border-radius: 7px;
+}
